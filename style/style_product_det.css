@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700&subset=cyrillic');
+
+html,
+body {
+    height: 100%;
+}
+
+a img {
+    border: none;
+    /* убрать рамку у ссылок-картинок в IE*/
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+.conteiner {
+    min-height: 100%;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 119px;
+    position: relative;
+
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-right: 211px;
+    margin-top: 53px;
+
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+.menu li a:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+
+.menu_all {
+    height: 70px;
+    background-color: #f4f4f4;
+    padding-left: 300px;
+}
+
+.menu_all ul li {
+    list-style-type: none;
+    display: inline-block;
+    min-width: 70px;
+    padding-right: 50px;
+    margin-top: 28px;
+}
+
+.menu_all ul li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #6c6c6c;
+    text-align: left;
+    font-size: 17.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    transform: scaleY(1.0006);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.menu_all ul li a:hover {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 17.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+}
+
+/*cont1*/
+
+.cont1 {
+    margin-top: 72px;
+    height: 651px;
+
+}
+
+.chairs {
+    width: 570px;
+    margin-left: 98px;
+    height: inherit;
+    float: left;
+}
+
+.mini {
+    margin-top: 11px;
+    margin-left: 150px;
+}
+
+.mini img {
+    padding-right: 10px;
+}
+
+
+.text {
+    height: inherit;
+    width: 600px;
+    overflow: hidden;
+    padding-left: 61px;
+}
+
+.text h2 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 35.98px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+margin-top: 47px;
+}
+
+.text h3 {
+    font-family: Montserrat;
+    color: #e53935;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.text h1 {
+
+    font-family: Gotham;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 31px;
+}
+
+.text p1 {
+    /* Встроенный стиль */
+    font-family: Gotham;
+    color: #212121;
+    font-size: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.text a {
+    display: block;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 21.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    text-decoration: none;
+    border-radius: 36px;
+    line-height: 71px;
+
+}
+
+.text a:hover { text-decoration: none;
+        color: #ffffff;
+    background: #f44336 url('../img/arrow_w.png') no-repeat 330px 22px;
+}
+
+.text p {
+    display: block;
+    width: 500px;
+    font-family: Gotham;
+color:  #212121;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+transform: scaleY(1.0005);
+margin-top: 49px;}
+
+
+
+
+
+
+/*Контент 3*/
+
+.cont3 {
+    margin-top: 245px;
+    margin-bottom: 0;
+    height: 588px;
+    width: 1170px;
+    /*height: 1725px;*/
+    margin: 70px auto;
+}
+
+
+
+.trending h1 {
+    display: inline-block;
+    float: left;
+    height: 35px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0;
+}
+
+.trending .explore {
+    float: right;
+}
+
+.trending .explore a {
+    display: inline-block;
+    padding-right: 5px;
+    margin-top: 18px;
+    /*margin-right: 21px;*/
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.row {
+    clear: both;
+    padding-top: 30px;
+}
+
+.col-md-4 {
+    height: 370px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clr {
+    height: 384px;
+}
+
+.footer {
+    margin-top: -384px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 384px;
+    width: 1366px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    background-color: #f7f7f7;
+}
+
+.contact {
+    width: 221px;
+    height: 157px;
+    margin-left: 97px;
+    margin-right: 80px;
+    float: left;
+
+}
+
+.contact h3,
+.useful h3,
+.lets h3 {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.useful {
+    overflow: hidden;
+    width: 430px;
+    height: 157px;
+    margin-right: 0;
+    float: left;
+}
+
+.useful_list ul {
+    padding-left: 0;
+}
+
+.useful_list li {
+    display: inline-block;
+    width: 211px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.useful_list li a {
+    text-decoration: none;
+
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-decoration: none;
+}
+
+.lets {
+    width: 375px;
+    height: 157px;
+    /*137 maket*/
+    display: inline-block;
+    margin-left: 42px;
+    position: relative;
+}
+
+.lets a {
+    position: absolute;
+    left: 335px;
+    bottom: 20px;
+}
+
+.lets p {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+#e-mail {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background: #ffffff;
+    /*url ('../img/arrow.png') no-repeat 335px 16px;*/
+    width: 354px;
+    height: 46px;
+    padding-left: 19px;
+}
+
+INPUT[type="text"] {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.info {
+    margin-top: 45px
+        /*59*/
+    ;
+    margin-left: 98px;
+    margin-right: 97px;
+}
+
+.copy {
+    display: inline-block;
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    /*line-height: 26px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social {
+    display: inline-block;
+    margin-left: 158px;
+
+}
+
+.term {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: right;
+    float: right;
+}
